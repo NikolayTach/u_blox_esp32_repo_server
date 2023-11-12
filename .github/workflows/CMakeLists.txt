@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(MyProject)
+project(u_blox_esp32_repo_server)
 
-add_executable(MyExecutable source_file1.cpp source_file2.cpp)
+add_executable(MyExecutable esp32.cpp)
