@@ -1,0 +1,8 @@
+configsip: 0, SPIWP:0x00
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:1
+load:0x3fff0008,len:8
+load:0x3fff0010,len:3680
+load:0x40078000,len:8364
+load:0x40080000,len:252
+entry 0x40080034
